@@ -1,0 +1,26 @@
+name: flutter_music
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animations: ^2.1.1
+  cupertino_icons: ^1.0.8
+  vector_graphics: ^1.1.19
+  flutter_local_db: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  vector_graphics_compiler: ^1.1.19
+
+flutter:
+  uses-material-design: true
+  assets: 
+    - assets/icons/user.svg.vec
